@@ -4,7 +4,7 @@ import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import firebase from "./src/utils/firebase";
 import "firebase/compat/auth";
 
-import Auth from "./src/components/Auth.js";
+import Auth from "./src/components/Auth";
 
 export default function App() {
 	const [user, setUser] = useState(undefined);
